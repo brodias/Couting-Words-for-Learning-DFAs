@@ -1,0 +1,2 @@
+INFO:DFA-finder:considering sample: 1000+0=1000 (pos+neg) finite traces, 7.51 timesteps (avg)
+INFO:DFA-finder:0.037s elapsed (0.035s on solving, 0.000s on generating finite counterexamples)

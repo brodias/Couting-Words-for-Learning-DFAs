@@ -1,0 +1,8 @@
+INFO:DFA-finder:considering sample: 999+0=999 (pos+neg) finite traces, 5.52 timesteps (avg)
+INFO:DFA-finder:found new dfa: Summary/Summary02/DFAs/dfa02_n_7_test_3.dot, DFA found in: 0.048s
+INFO:DFA-finder:found new dfa: Summary/Summary02/DFAs/dfa02_n_7_test_3.dot, DFA found in: 0.087s
+INFO:DFA-finder:found new dfa: Summary/Summary02/DFAs/dfa02_n_7_test_3.dot, DFA found in: 0.149s
+INFO:DFA-finder:found new dfa: Summary/Summary02/DFAs/dfa02_n_7_test_3.dot, DFA found in: 0.224s
+INFO:DFA-finder:found new dfa: Summary/Summary02/DFAs/dfa02_n_7_test_3.dot, DFA found in: 16.457s
+INFO:DFA-finder:found new dfa: Summary/Summary02/DFAs/dfa02_n_7_test_3.dot, DFA found in: 50.88s
+INFO:DFA-finder:136.033s elapsed (135.622s on solving, 0.000s on generating finite counterexamples)

@@ -1,0 +1,6 @@
+INFO:DFA-finder:considering sample: 1000+0=1000 (pos+neg) finite traces, 7.51 timesteps (avg)
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary12/DFAs/dfa12_n_3_test_3.dot, DFA found in: 0.208s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary12/DFAs/dfa12_n_3_test_3.dot, DFA found in: 0.239s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary12/DFAs/dfa12_n_3_test_3.dot, DFA found in: 0.424s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary12/DFAs/dfa12_n_3_test_3.dot, DFA found in: 0.53s
+INFO:DFA-finder:0.609s elapsed (0.504s on solving, 0.000s on generating finite counterexamples)

@@ -1,0 +1,3 @@
+INFO:DFA-finder:considering sample: 1000+0=1000 (pos+neg) finite traces, 5.34 timesteps (avg)
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary11/DFAs/dfa11_n_2_test_6.dot, DFA found in: 0.166s
+INFO:DFA-finder:0.193s elapsed (0.175s on solving, 0.000s on generating finite counterexamples)
