@@ -54,6 +54,8 @@ int structDFA::find_id(char c){
 }
 
 int structDFA::map_to_state(int start,string w){
+	assert((start >= 0) && "Not a valid state");
+	assert((start <= nb_states-1) && "Not a valid state");
 	int current_state = start;
 	for (char& c : w){
 		int k = find_id(c);
@@ -63,6 +65,15 @@ int structDFA::map_to_state(int start,string w){
 }
 
 structDFA structDFA::change_transition(int origin,int letter,int destination){
+	assert((origin >= 0) && "Not a valid origin state");
+	assert((origin <= nb_states-1) && "Not a valid origin state");
+	
+	assert((letter >= 0) && "Not a valid letter");
+	assert((letter <= Alph.size()-1) && "Not a valid letter");
+	
+	assert((destination >= 0) && "Not a valid destination state");
+	assert((destination <= nb_states-1) && "Not a valid destination state");
+	
 	vector< vector<int> > d = delta;
 	d.at(origin).at(letter) = destination;
 	return structDFA(nb_states,Alph,d);

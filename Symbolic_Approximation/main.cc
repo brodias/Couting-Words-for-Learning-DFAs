@@ -36,15 +36,17 @@ void print_vector_pair(vector<pair<long long unsigned int,int> > v){
 
 int main(int argc, char* argv[]) {
 	string nameFile = argv[1];
+	cout << nameFile << endl;
 	string saveFile = argv[2];
+	cout << saveFile << endl;
 	int n = stoi(argv[3]);
+	cout << n << endl;
 	int h = stoi(argv[4]);
+	cout << h << endl;
 	int init_attempt = stoi(argv[5]);
+	cout << init_attempt << endl;
 	int iterations = stoi(argv[6]);
-	
-	int attempt = 10;
-	int N_proba = 10;
-
+	cout << iterations << endl;
 	//~ "Traces/OrignalTraces/Traces01.words";
 	//~ "DFA_stoch/DFA_01_n.dot"
 	chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
@@ -52,7 +54,7 @@ int main(int argc, char* argv[]) {
 	DFA A;
 	long long unsigned int best = 0;
 	for (int k = 1; k <= iterations; k++){
-		pair<long long unsigned int,DFA> res = learnDFA_stoch(nameFile,n,h,init_attempt,attempt,N_proba);
+		pair<long long unsigned int,DFA> res = learnDFA(nameFile,n,h,init_attempt);
 		v = add_vect(v,res.first);
 		if (best == 0 || res.first < best){
 			best = res.first;
@@ -61,7 +63,12 @@ int main(int argc, char* argv[]) {
 	}
 	A.save(saveFile);
 	chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
-	cout << "Elapsed time = " << chrono::duration_cast<chrono::seconds>(end - begin).count() << " s " << std::endl;
+	float time = (float) chrono::duration_cast<chrono::milliseconds>(end - begin).count()/ (float)1000;
+	cout << time << "s elapsed" << std::endl;
+	cout << "Number of states: " << n << std::endl;
+	cout << "Horizon: " << h << std::endl;
+	cout << "Number of initial attemps: " << init_attempt << std::endl;
+	cout << "Number of runs: " << iterations << std::endl;
 	print_vector_pair(v);
 	//cout << "Done with file " + nameFile << endl;
 	return 0;

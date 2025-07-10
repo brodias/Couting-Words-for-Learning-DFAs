@@ -10,16 +10,24 @@
 
 using namespace std;
 
+/// Returns true iff n appears in the vector v
+/**  
+ * Returns true iff n appears in the vector v
+ * 
+ * @param v integer vector
+ * @param n integer
+ * @return true iff n appears in the vector v
+ */
 bool in_vector(vector<int> v, int n);
 
-bool random_bool(int N_proba);
-
+/// Returns true iff n appears in the vector v
+/**  
+ * Returns true iff n appears in the vector v
+ * 
+ * @param v integer vector
+ * @param n integer
+ * @return true iff n appears in the vector v
+ */
 int random_int(int n);
-
-vector<int> sort_order(vector<long long unsigned int> vect);
-
-int random_index_ordered(vector<int> ord);
-
-void print_long_vect(vector<vector<vector<long long unsigned int> > > vect);
 
 #endif

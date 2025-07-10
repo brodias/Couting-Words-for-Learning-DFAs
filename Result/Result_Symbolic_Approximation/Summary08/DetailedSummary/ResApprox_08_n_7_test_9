@@ -1,0 +1,583 @@
+Traces/Traces08.words
+Result/Result_Symbolic_Approximation/Summary08/DFAs/Start_dfa_08_n_7_test_9.dot
+7
+12
+100
+50
+The initial number of words accepted is 567210
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 531428
+By changing one transition, we can improve to : 531417
+By changing one transition, we can improve to : 531362
+The final score is : 531362
+It was found after 5 genearations 
+
+The initial number of words accepted is 574207
+By changing one transition, we can improve to : 445208
+By changing one transition, we can improve to : 398580
+The final score is : 398580
+It was found after 3 genearations 
+
+The initial number of words accepted is 531440
+By changing one transition, we can improve to : 531428
+The final score is : 531428
+It was found after 2 genearations 
+
+The initial number of words accepted is 593482
+By changing one transition, we can improve to : 525600
+By changing one transition, we can improve to : 491687
+By changing one transition, we can improve to : 478089
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 6 genearations 
+
+The initial number of words accepted is 597835
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 529393
+By changing one transition, we can improve to : 523040
+By changing one transition, we can improve to : 489968
+By changing one transition, we can improve to : 472256
+The final score is : 472256
+It was found after 6 genearations 
+
+The initial number of words accepted is 616804
+By changing one transition, we can improve to : 572316
+By changing one transition, we can improve to : 512360
+By changing one transition, we can improve to : 484377
+By changing one transition, we can improve to : 474573
+By changing one transition, we can improve to : 467514
+By changing one transition, we can improve to : 462316
+By changing one transition, we can improve to : 453921
+By changing one transition, we can improve to : 448809
+By changing one transition, we can improve to : 445787
+By changing one transition, we can improve to : 442845
+By changing one transition, we can improve to : 405281
+The final score is : 405281
+It was found after 12 genearations 
+
+The initial number of words accepted is 597870
+By changing one transition, we can improve to : 542761
+By changing one transition, we can improve to : 521632
+By changing one transition, we can improve to : 491822
+By changing one transition, we can improve to : 468299
+By changing one transition, we can improve to : 418037
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 8 genearations 
+
+The initial number of words accepted is 588465
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 531428
+The final score is : 531428
+It was found after 3 genearations 
+
+The initial number of words accepted is 584776
+By changing one transition, we can improve to : 551305
+By changing one transition, we can improve to : 512800
+By changing one transition, we can improve to : 491705
+By changing one transition, we can improve to : 476659
+By changing one transition, we can improve to : 462808
+By changing one transition, we can improve to : 426493
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+By changing one transition, we can improve to : 374425
+By changing one transition, we can improve to : 371274
+By changing one transition, we can improve to : 369763
+By changing one transition, we can improve to : 369415
+The final score is : 369415
+It was found after 13 genearations 
+
+The initial number of words accepted is 614273
+By changing one transition, we can improve to : 559844
+By changing one transition, we can improve to : 531438
+By changing one transition, we can improve to : 524538
+By changing one transition, we can improve to : 512161
+By changing one transition, we can improve to : 504388
+By changing one transition, we can improve to : 471221
+By changing one transition, we can improve to : 462367
+By changing one transition, we can improve to : 451018
+By changing one transition, we can improve to : 442396
+By changing one transition, we can improve to : 420160
+By changing one transition, we can improve to : 380034
+By changing one transition, we can improve to : 378138
+By changing one transition, we can improve to : 375325
+By changing one transition, we can improve to : 373119
+By changing one transition, we can improve to : 372008
+By changing one transition, we can improve to : 371465
+By changing one transition, we can improve to : 370843
+The final score is : 370843
+It was found after 18 genearations 
+
+The initial number of words accepted is 531440
+By changing one transition, we can improve to : 530522
+By changing one transition, we can improve to : 491691
+By changing one transition, we can improve to : 476685
+By changing one transition, we can improve to : 467047
+By changing one transition, we can improve to : 462165
+By changing one transition, we can improve to : 457579
+The final score is : 457579
+It was found after 7 genearations 
+
+The initial number of words accepted is 616310
+By changing one transition, we can improve to : 553445
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 531428
+The final score is : 531428
+It was found after 4 genearations 
+
+The initial number of words accepted is 623690
+By changing one transition, we can improve to : 560964
+By changing one transition, we can improve to : 531439
+By changing one transition, we can improve to : 509291
+By changing one transition, we can improve to : 487142
+By changing one transition, we can improve to : 471528
+By changing one transition, we can improve to : 442116
+By changing one transition, we can improve to : 419386
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 395850
+By changing one transition, we can improve to : 384720
+By changing one transition, we can improve to : 365028
+The final score is : 365028
+It was found after 12 genearations 
+
+The initial number of words accepted is 561143
+By changing one transition, we can improve to : 521705
+By changing one transition, we can improve to : 488217
+By changing one transition, we can improve to : 463065
+By changing one transition, we can improve to : 447513
+By changing one transition, we can improve to : 432100
+By changing one transition, we can improve to : 429224
+By changing one transition, we can improve to : 427167
+By changing one transition, we can improve to : 426315
+The final score is : 426315
+It was found after 9 genearations 
+
+The initial number of words accepted is 585758
+By changing one transition, we can improve to : 555905
+By changing one transition, we can improve to : 534966
+By changing one transition, we can improve to : 523848
+By changing one transition, we can improve to : 512460
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 476208
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 452121
+By changing one transition, we can improve to : 446410
+By changing one transition, we can improve to : 434809
+By changing one transition, we can improve to : 402308
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 13 genearations 
+
+The initial number of words accepted is 560972
+By changing one transition, we can improve to : 516677
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 476535
+By changing one transition, we can improve to : 455466
+The final score is : 455466
+It was found after 5 genearations 
+
+The initial number of words accepted is 582871
+By changing one transition, we can improve to : 523131
+By changing one transition, we can improve to : 478088
+By changing one transition, we can improve to : 455466
+The final score is : 455466
+It was found after 4 genearations 
+
+The initial number of words accepted is 624182
+By changing one transition, we can improve to : 567120
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 531439
+By changing one transition, we can improve to : 513279
+By changing one transition, we can improve to : 488130
+By changing one transition, we can improve to : 469134
+By changing one transition, we can improve to : 459858
+By changing one transition, we can improve to : 453336
+By changing one transition, we can improve to : 417662
+By changing one transition, we can improve to : 398580
+The final score is : 398580
+It was found after 11 genearations 
+
+The initial number of words accepted is 566039
+By changing one transition, we can improve to : 509235
+By changing one transition, we can improve to : 494389
+By changing one transition, we can improve to : 480216
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 398580
+The final score is : 398580
+It was found after 6 genearations 
+
+The initial number of words accepted is 532459
+By changing one transition, we can improve to : 518157
+By changing one transition, we can improve to : 504030
+By changing one transition, we can improve to : 485450
+By changing one transition, we can improve to : 451651
+By changing one transition, we can improve to : 396961
+The final score is : 396961
+It was found after 6 genearations 
+
+The initial number of words accepted is 620013
+By changing one transition, we can improve to : 569400
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 531428
+By changing one transition, we can improve to : 529420
+By changing one transition, we can improve to : 520860
+By changing one transition, we can improve to : 518088
+By changing one transition, we can improve to : 492235
+By changing one transition, we can improve to : 458475
+By changing one transition, we can improve to : 453249
+By changing one transition, we can improve to : 449937
+By changing one transition, we can improve to : 446533
+By changing one transition, we can improve to : 443405
+The final score is : 443405
+It was found after 13 genearations 
+
+The initial number of words accepted is 557708
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 514786
+By changing one transition, we can improve to : 494268
+By changing one transition, we can improve to : 475302
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398492
+By changing one transition, we can improve to : 398348
+By changing one transition, we can improve to : 387530
+By changing one transition, we can improve to : 377656
+By changing one transition, we can improve to : 371464
+By changing one transition, we can improve to : 369591
+By changing one transition, we can improve to : 369415
+The final score is : 369415
+It was found after 14 genearations 
+
+The initial number of words accepted is 593007
+By changing one transition, we can improve to : 531440
+The final score is : 531440
+It was found after 2 genearations 
+
+The initial number of words accepted is 608610
+By changing one transition, we can improve to : 568719
+By changing one transition, we can improve to : 545701
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 523184
+By changing one transition, we can improve to : 493390
+By changing one transition, we can improve to : 459164
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+By changing one transition, we can improve to : 383817
+By changing one transition, we can improve to : 380971
+By changing one transition, we can improve to : 377581
+By changing one transition, we can improve to : 374958
+By changing one transition, we can improve to : 372979
+By changing one transition, we can improve to : 371280
+By changing one transition, we can improve to : 369591
+By changing one transition, we can improve to : 369415
+The final score is : 369415
+It was found after 18 genearations 
+
+The initial number of words accepted is 579151
+By changing one transition, we can improve to : 523818
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 468879
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 7 genearations 
+
+The initial number of words accepted is 597869
+By changing one transition, we can improve to : 531439
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 419386
+By changing one transition, we can improve to : 398580
+The final score is : 398580
+It was found after 6 genearations 
+
+The initial number of words accepted is 566356
+By changing one transition, we can improve to : 472390
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 5 genearations 
+
+The initial number of words accepted is 599897
+By changing one transition, we can improve to : 559210
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 531439
+By changing one transition, we can improve to : 514496
+By changing one transition, we can improve to : 481538
+By changing one transition, we can improve to : 457330
+By changing one transition, we can improve to : 451938
+By changing one transition, we can improve to : 450560
+By changing one transition, we can improve to : 446410
+By changing one transition, we can improve to : 434809
+By changing one transition, we can improve to : 402308
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 13 genearations 
+
+The initial number of words accepted is 604033
+By changing one transition, we can improve to : 565981
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 531439
+By changing one transition, we can improve to : 509310
+By changing one transition, we can improve to : 475238
+By changing one transition, we can improve to : 460250
+By changing one transition, we can improve to : 419638
+By changing one transition, we can improve to : 398580
+The final score is : 398580
+It was found after 9 genearations 
+
+The initial number of words accepted is 570211
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 522286
+By changing one transition, we can improve to : 514856
+By changing one transition, we can improve to : 510472
+By changing one transition, we can improve to : 505462
+By changing one transition, we can improve to : 501064
+By changing one transition, we can improve to : 493364
+By changing one transition, we can improve to : 487114
+By changing one transition, we can improve to : 479650
+By changing one transition, we can improve to : 477771
+By changing one transition, we can improve to : 477760
+The final score is : 477760
+It was found after 12 genearations 
+
+The initial number of words accepted is 598660
+By changing one transition, we can improve to : 536688
+By changing one transition, we can improve to : 517608
+By changing one transition, we can improve to : 493245
+By changing one transition, we can improve to : 474336
+By changing one transition, we can improve to : 456063
+By changing one transition, we can improve to : 442017
+By changing one transition, we can improve to : 431133
+By changing one transition, we can improve to : 422439
+By changing one transition, we can improve to : 343719
+By changing one transition, we can improve to : 283239
+By changing one transition, we can improve to : 202791
+By changing one transition, we can improve to : 161199
+The final score is : 161199
+It was found after 13 genearations 
+
+The initial number of words accepted is 536239
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 455466
+The final score is : 455466
+It was found after 4 genearations 
+
+The initial number of words accepted is 592760
+By changing one transition, we can improve to : 531439
+By changing one transition, we can improve to : 531428
+The final score is : 531428
+It was found after 3 genearations 
+
+The initial number of words accepted is 609436
+By changing one transition, we can improve to : 551219
+By changing one transition, we can improve to : 516960
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 475468
+By changing one transition, we can improve to : 455466
+The final score is : 455466
+It was found after 6 genearations 
+
+The initial number of words accepted is 584220
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 468902
+By changing one transition, we can improve to : 431465
+By changing one transition, we can improve to : 411229
+By changing one transition, we can improve to : 401470
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 9 genearations 
+
+The initial number of words accepted is 568270
+By changing one transition, we can improve to : 518328
+By changing one transition, we can improve to : 499478
+By changing one transition, we can improve to : 466930
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 449962
+By changing one transition, we can improve to : 402412
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 9 genearations 
+
+The initial number of words accepted is 557404
+By changing one transition, we can improve to : 530573
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 398580
+The final score is : 398580
+It was found after 5 genearations 
+
+The initial number of words accepted is 606455
+By changing one transition, we can improve to : 567413
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 521170
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 475622
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 9 genearations 
+
+The initial number of words accepted is 582538
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 531428
+The final score is : 531428
+It was found after 3 genearations 
+
+The initial number of words accepted is 555553
+By changing one transition, we can improve to : 525339
+By changing one transition, we can improve to : 473883
+By changing one transition, we can improve to : 458958
+By changing one transition, we can improve to : 445438
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+By changing one transition, we can improve to : 398559
+By changing one transition, we can improve to : 382200
+By changing one transition, we can improve to : 381217
+The final score is : 381217
+It was found after 10 genearations 
+
+The initial number of words accepted is 597900
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 478933
+By changing one transition, we can improve to : 461616
+By changing one transition, we can improve to : 451880
+By changing one transition, we can improve to : 446410
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 8 genearations 
+
+The initial number of words accepted is 531440
+The final score is : 531440
+It was found after 1 genearations 
+
+The initial number of words accepted is 592270
+By changing one transition, we can improve to : 531439
+By changing one transition, we can improve to : 504314
+By changing one transition, we can improve to : 471750
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 412830
+By changing one transition, we can improve to : 397423
+By changing one transition, we can improve to : 396356
+By changing one transition, we can improve to : 390420
+By changing one transition, we can improve to : 382388
+By changing one transition, we can improve to : 368244
+By changing one transition, we can improve to : 356788
+By changing one transition, we can improve to : 341300
+By changing one transition, we can improve to : 325812
+The final score is : 325812
+It was found after 14 genearations 
+
+The initial number of words accepted is 571631
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 498222
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 419386
+By changing one transition, we can improve to : 398574
+The final score is : 398574
+It was found after 6 genearations 
+
+The initial number of words accepted is 582224
+By changing one transition, we can improve to : 544947
+By changing one transition, we can improve to : 516195
+By changing one transition, we can improve to : 495776
+By changing one transition, we can improve to : 481948
+By changing one transition, we can improve to : 459987
+By changing one transition, we can improve to : 427724
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398574
+By changing one transition, we can improve to : 398204
+By changing one transition, we can improve to : 391940
+By changing one transition, we can improve to : 374666
+By changing one transition, we can improve to : 361985
+By changing one transition, we can improve to : 344887
+By changing one transition, we can improve to : 313083
+The final score is : 313083
+It was found after 15 genearations 
+
+The initial number of words accepted is 556700
+By changing one transition, we can improve to : 533522
+By changing one transition, we can improve to : 514186
+By changing one transition, we can improve to : 498103
+By changing one transition, we can improve to : 462386
+By changing one transition, we can improve to : 398580
+By changing one transition, we can improve to : 398492
+By changing one transition, we can improve to : 398230
+By changing one transition, we can improve to : 375645
+By changing one transition, we can improve to : 365699
+By changing one transition, we can improve to : 355245
+By changing one transition, we can improve to : 352662
+The final score is : 352662
+It was found after 12 genearations 
+
+The initial number of words accepted is 590940
+By changing one transition, we can improve to : 509454
+By changing one transition, we can improve to : 494843
+By changing one transition, we can improve to : 486266
+By changing one transition, we can improve to : 455466
+By changing one transition, we can improve to : 449633
+By changing one transition, we can improve to : 443773
+By changing one transition, we can improve to : 434121
+The final score is : 434121
+It was found after 8 genearations 
+
+The initial number of words accepted is 496404
+By changing one transition, we can improve to : 398580
+The final score is : 398580
+It was found after 2 genearations 
+
+The initial number of words accepted is 631142
+By changing one transition, we can improve to : 531440
+By changing one transition, we can improve to : 503420
+By changing one transition, we can improve to : 483975
+By changing one transition, we can improve to : 464098
+By changing one transition, we can improve to : 398580
+The final score is : 398580
+It was found after 6 genearations 
+
+The initial number of words accepted is 576102
+By changing one transition, we can improve to : 531440
+The final score is : 531440
+It was found after 2 genearations 
+
+206.749s elapsed
+Number of states: 7
+Horizon: 12
+Number of initial attemps: 100
+Number of runs: 50
+********************************************
+***** Summary of the scores obtained : *****
+The score 161199 occured 1 times 
+The score 313083 occured 1 times 
+The score 325812 occured 1 times 
+The score 352662 occured 1 times 
+The score 365028 occured 1 times 
+The score 369415 occured 3 times 
+The score 370843 occured 1 times 
+The score 381217 occured 1 times 
+The score 396961 occured 1 times 
+The score 398574 occured 11 times 
+The score 398580 occured 8 times 
+The score 405281 occured 1 times 
+The score 426315 occured 1 times 
+The score 434121 occured 1 times 
+The score 443405 occured 1 times 
+The score 455466 occured 4 times 
+The score 457579 occured 1 times 
+The score 472256 occured 1 times 
+The score 477760 occured 1 times 
+The score 531362 occured 1 times 
+The score 531428 occured 5 times 
+The score 531440 occured 3 times 
+********************************************

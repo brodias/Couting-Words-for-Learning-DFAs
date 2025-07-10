@@ -15,19 +15,23 @@
 using namespace std;
 
 DFA::DFA(structDFA sDFA,int k,vector<bool> F){
+	int n = sDFA.get_states();
+	assert((k >= 0) && "Not a valid state");
+	assert((k <= n-1) && "Not a valid state");
+	assert((F.size() == n) && "Each state is accepting or not accepting");
+	
 	s = sDFA;
 	starting = k;
 	Final = F;
 }
 
 bool DFA::is_accepting(int q){
-	assert(q >= 0 && "States are positive");
-	assert(q <= s.get_states()-1 && "States are not too large");
+	assert(q >= 0 && "Not a valid state");
+	assert(q <= s.get_states()-1 && "Not a valid state");
 	return Final.at(q);
 }
 
 void DFA::save(string nameFile){
-	cout << nameFile << endl;
 	// Create and open a text file
 	ofstream File(nameFile);
 	
@@ -35,10 +39,17 @@ void DFA::save(string nameFile){
 	vector<char> Alph = s.get_Alph();
 	vector<vector<int> > delta = s.get_delta();
 
-	// Write to the file
+	// Write in the file
+	// We follow the .dot grammar
+	
 	File << "digraph g {" << endl;
 	File << "__start [label=" <<'"' << '"' << "shape=none]" << endl;
 	string circ;
+	
+	// We start by writting the set of states
+	// The first state written is the initial state
+	// 'doublecircle' means that the state is final
+	// 'circle' means that the state is not final
 	if (is_accepting(starting)){
 		circ = "doublecircle";
 	}
@@ -60,6 +71,7 @@ void DFA::save(string nameFile){
 	}
 	File << endl;
 	
+	// We then write the transitions 
 	File << "__start -> " << starting << endl;
 	for (int i = 0; i < nb_states; i++){
 		for (int j = 0; j < Alph.size(); j++){
@@ -76,10 +88,17 @@ vector<bool> DFA::reach_co_reach(){
 	int nb_states = s.get_states();
 	vector<vector<int> > delta = s.get_delta();
 	
+	// We iteratively compute the set of states that are reachable.
+	// Initially, only the starting state is deemed reachable.
 	vector<bool> reach = vector<bool>(nb_states);
 	for (int i = 0; i < reach.size(); i++){
 		reach.at(i) = (i == starting);
 	}
+	
+	// Then, at step n+1, we deem a state q reachable if:
+	// - q was deemed reachable at step n; or
+	// - some state q' was deemed reachable at step n and there is a 
+	// transition from q' to q.
 	for (int n = 1; n < nb_states; n++){
 		for (int i = 0; i < reach.size(); i++){
 			if (reach.at(i)){
@@ -90,6 +109,8 @@ vector<bool> DFA::reach_co_reach(){
 		}
 	}
 	
+	// This is symmetrical with co-reachable states: initially only the 
+	// the final states are demmed co-reachable, etc.
 	vector<bool> co_reach = vector<bool>(nb_states);
 	for (int i = 0; i < co_reach.size(); i++){
 		co_reach.at(i) = is_accepting(i);
@@ -106,6 +127,8 @@ vector<bool> DFA::reach_co_reach(){
 		}
 	}
 	
+	// Finally, we compute the set of states that are reachable AND 
+	// co-reachable.
 	for (int i = 0; i < co_reach.size(); i++){
 		co_reach.at(i) = co_reach.at(i) && reach.at(i);
 	}
@@ -114,11 +137,15 @@ vector<bool> DFA::reach_co_reach(){
 
 MatrixXlli DFA::other_transition_matrix(vector<bool> r_cor) {
 	int nb_states = s.get_states();
+	assert((r_cor.size() == nb_states) && "Wrong size of the reach,co-reach vector.");
+	
 	MatrixXlli M = s.get_M();
 	
 	MatrixXlli Macc(nb_states+1,nb_states+1);
 	Macc(nb_states,nb_states) = 1;
 	for (int i = 0; i < nb_states; i++){
+		// Exactly the accepting state have a transition to the 
+		// additional fresh state q_F
 		if (is_accepting(i)){
 			Macc(i,nb_states) = 1;
 		}
@@ -127,6 +154,8 @@ MatrixXlli DFA::other_transition_matrix(vector<bool> r_cor) {
 		}
 		Macc(nb_states,i) = 0;
 		for (int j = 0; j < nb_states; j++){
+			// We disregard the states that are not reacheble or not 
+			// co-reachable.
 			if (!r_cor.at(i) || !r_cor.at(j)){
 				Macc(i,j) = 0;
 			}
@@ -143,18 +172,15 @@ long long unsigned int DFA::number_of_paths(int m){
 	vector<bool> r_cor = reach_co_reach();
 	MatrixXlli Macc = other_transition_matrix(r_cor);
 	
+	// We use the bit representation for fast exponentiation.
 	bitset<32> x(m+1);
 	string v = x.to_string();
 	int start = 0;
 	while (v[start] == '0'){
 		start += 1;
 	}
-	// cout << "The binary decomposition of " << m+1 << " is equal to : " << endl;
-	// cout << x << endl << endl;
-	// cout << "The first bit equal to 1 is equal to : " << endl;
-	// cout << start << endl << endl;
 	
-	/// The fast exponentiation is done with 'decalage d'index' (on fait le carre au debut)
+	// Fast exponentiation.
 	MatrixXlli CurrentM = Macc;
 	for (int i = start+1; i < v.size(); i++){
 		CurrentM = CurrentM  * CurrentM;
@@ -162,8 +188,7 @@ long long unsigned int DFA::number_of_paths(int m){
 			CurrentM = CurrentM * Macc;
 		}
 	}	
-	//cout << "The Matrix for power " << m+1 << " is equal to : " << endl;
-	//cout << CurrentM << endl << endl;
+
 	return CurrentM(starting,nb_states);
 }
 

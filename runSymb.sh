@@ -1,8 +1,8 @@
 start_file=12
-end_file=15
+end_file=12
 min_n=8
 max_n=8
-start_test=1
+start_test=9
 nb_test=10
 
 for num_file in `seq $start_file $end_file`

@@ -12,12 +12,14 @@
 using namespace std;
 
 vector<string> readFile(string nameFile){
+	// Stores each line of the file 
 	vector<string> words;
 
 	// Read from the text file
 	ifstream MyReadFile(nameFile);
 
-	// Use a while loop together with the getline() function to read the file line by line
+	// Use a while loop together with the getline() function to 
+	// read the file line by line
 	string myText;
 	while (getline (MyReadFile, myText)) {
 		words.push_back(myText);

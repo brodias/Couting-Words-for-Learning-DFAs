@@ -24,16 +24,9 @@ long long unsigned int eval_struct(structDFA s,int horizon,vector<string> v);
 
 pair<long long unsigned int,structDFA> init_struct(int nb_states,int horizon,int nb_attempt,vector<string> words);
 
-/// n : number of states
-/// h : horizon for minimization
-pair<vector<vector<vector<long long unsigned int> > >,pair<structDFA,long long unsigned int> >
-	eval_one_change(structDFA A,long long unsigned int score,int horizon,vector<string> words);
+pair<structDFA,long long unsigned int> eval_one_change(structDFA A,long long unsigned int score,int horizon, vector<string> words);
 
-pair<structDFA,long long unsigned int> simple_eval_one_change(structDFA A,long long unsigned int score,int horizon, vector<string> words);
-
-pair<structDFA,long long unsigned int> eval_two_changes(structDFA A,long long unsigned int score,int horizon,vector<string> words);
-
-pair<long long unsigned int,DFA> learnDFA_stoch(string nameFile,int n,int h,int init_attempt,int attempt,int N_proba);
+pair<long long unsigned int,DFA> learnDFA(string nameFile,int n,int h,int init_attempt);
 
 #endif
 
