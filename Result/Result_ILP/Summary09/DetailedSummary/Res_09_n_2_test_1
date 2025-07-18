@@ -1,0 +1,43 @@
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2666615
+Academic license 2666615 - for non-commercial use only - registered to be___@tu-dortmund.de
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1365U, instruction set [SSE2|AVX|AVX2]
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2666615 - for non-commercial use only - registered to be___@tu-dortmund.de
+Optimize a model with 8170 rows, 2860 columns and 21969 nonzeros
+Model fingerprint: 0x8e5031da
+Variable types: 0 continuous, 2860 integer (2824 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+01]
+Presolve removed 3941 rows and 2089 columns
+Presolve time: 0.14s
+Presolved: 4229 rows, 771 columns, 12487 nonzeros
+Variable types: 0 continuous, 771 integer (741 binary)
+Found heuristic solution: objective 13.0000000
+
+Root relaxation: objective 2.500000e-01, 926 iterations, 0.04 seconds (0.05 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.25000    0  674   13.00000    0.25000  98.1%     -    0s
+H    0     0                       6.0000000    0.25000  95.8%     -    0s
+H    0     0                       5.0000000    0.25000  95.0%     -    0s
+     0     0    0.25000    0  674    5.00000    0.25000  95.0%     -    0s
+
+Explored 1 nodes (1061 simplex iterations) in 0.23 seconds (0.24 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5 6 13 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+Obj: 5
+5.645s elapsed

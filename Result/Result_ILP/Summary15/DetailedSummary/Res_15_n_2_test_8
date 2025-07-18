@@ -1,0 +1,56 @@
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2666615
+Academic license 2666615 - for non-commercial use only - registered to be___@tu-dortmund.de
+Set parameter TimeLimit to value 1000
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1365U, instruction set [SSE2|AVX|AVX2]
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+TimeLimit  1000
+
+Academic license 2666615 - for non-commercial use only - registered to be___@tu-dortmund.de
+Optimize a model with 12443 rows, 4306 columns and 33407 nonzeros
+Model fingerprint: 0x736891d4
+Variable types: 0 continuous, 4306 integer (4270 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+01]
+Presolve removed 4339 rows and 2710 columns
+Presolve time: 0.09s
+Presolved: 8104 rows, 1596 columns, 23123 nonzeros
+Variable types: 0 continuous, 1596 integer (1566 binary)
+Found heuristic solution: objective 13.0000000
+
+Root relaxation: objective 4.000000e-01, 2281 iterations, 0.08 seconds (0.18 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.40000    0 1535   13.00000    0.40000  96.9%     -    0s
+     0     0    4.00000    0 1068   13.00000    4.00000  69.2%     -    0s
+H    0     0                      10.0000000    4.00000  60.0%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 4
+  MIR: 8
+  StrongCG: 1
+  Flow cover: 3
+  Zero half: 3
+  RLT: 204
+  BQP: 1
+
+Explored 1 nodes (4963 simplex iterations) in 0.54 seconds (0.92 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 10 13 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+01, best bound 1.000000000000e+01, gap 0.0000%
+Obj: 10
+5.078s elapsed

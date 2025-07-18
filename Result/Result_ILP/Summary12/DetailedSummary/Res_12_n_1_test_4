@@ -1,0 +1,32 @@
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2666615
+Academic license 2666615 - for non-commercial use only - registered to be___@tu-dortmund.de
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1365U, instruction set [SSE2|AVX|AVX2]
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2666615 - for non-commercial use only - registered to be___@tu-dortmund.de
+Optimize a model with 5129 rows, 2138 columns and 10252 nonzeros
+Model fingerprint: 0x04bd53ac
+Variable types: 0 continuous, 2138 integer (2136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Found heuristic solution: objective 1.0000000
+Presolve removed 5129 rows and 2138 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+Obj: 1
+1.299s elapsed

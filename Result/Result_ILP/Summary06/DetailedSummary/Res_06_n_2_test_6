@@ -1,0 +1,54 @@
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2666615
+Academic license 2666615 - for non-commercial use only - registered to be___@tu-dortmund.de
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1365U, instruction set [SSE2|AVX|AVX2]
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2666615 - for non-commercial use only - registered to be___@tu-dortmund.de
+Optimize a model with 12930 rows, 4484 columns and 34737 nonzeros
+Model fingerprint: 0x5acfe5ed
+Variable types: 0 continuous, 4484 integer (4448 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+01]
+Presolve removed 4179 rows and 2727 columns
+Presolve time: 0.10s
+Presolved: 8751 rows, 1757 columns, 24908 nonzeros
+Variable types: 0 continuous, 1757 integer (1727 binary)
+Found heuristic solution: objective 13.0000000
+Found heuristic solution: objective 12.0000000
+
+Root relaxation: objective 4.000000e-01, 2569 iterations, 0.09 seconds (0.19 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.40000    0 1354   12.00000    0.40000  96.7%     -    0s
+     0     0    4.00000    0 1076   12.00000    4.00000  66.7%     -    0s
+H    0     0                      10.0000000    4.00000  60.0%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 3
+  Implied bound: 1
+  MIR: 3
+  StrongCG: 1
+  Flow cover: 4
+  RLT: 197
+  Relax-and-lift: 1
+  BQP: 19
+
+Explored 1 nodes (6955 simplex iterations) in 0.87 seconds (1.28 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 10 12 13 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+01, best bound 1.000000000000e+01, gap 0.0000%
+Obj: 10
+6.345s elapsed
