@@ -2,10 +2,10 @@ num_file=02
 n=8
 h=7
 time=250
-start_test=1
-nb_test=1
+start_test=2
+nb_test=10
 echo ""
-echo "Start approximation for file ${num_file} for n = ${n}"
+echo "Start ILP approximation for file ${num_file} for n = ${n}"
 
 for j in `seq $start_test $nb_test`
 do

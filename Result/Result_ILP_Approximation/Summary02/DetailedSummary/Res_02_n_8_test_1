@@ -1,11 +1,2 @@
-Traceback (most recent call last):
-  File "/home/bordais/Documents/PostDoc/Git/automata-accepting-positive-words/Couting-Words-for-Learning-DFAs/./Symbolic/infer", line 269, in <module>
-    args.main(args)
-  File "/home/bordais/Documents/PostDoc/Git/automata-accepting-positive-words/Couting-Words-for-Learning-DFAs/./Symbolic/infer", line 255, in main
-    json_stats = args.run(args)
-                 ^^^^^^^^^^^^^^
-  File "/home/bordais/Documents/PostDoc/Git/automata-accepting-positive-words/Couting-Words-for-Learning-DFAs/./Symbolic/infer", line 149, in run_SpecificDFA
-    from samp2symb.algo.infer_specific import find_specific_dfa
-  File "/home/bordais/Documents/PostDoc/Git/automata-accepting-positive-words/Couting-Words-for-Learning-DFAs/Symbolic/samp2symb/algo/infer_specific.py", line 6, in <module>
-    import termcolor
-ModuleNotFoundError: No module named 'termcolor'
+INFO:DFA-finder:considering sample: 999+0=999 (pos+neg) finite traces, 5.52 timesteps (avg)
+INFO:DFA-finder:227.447s elapsed (227.358s on solving, 0.000s on generating finite counterexamples)

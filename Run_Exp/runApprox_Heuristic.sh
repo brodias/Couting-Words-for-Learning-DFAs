@@ -1,12 +1,12 @@
-num_file=03
+num_file=15
 n=8
-h=14
+h=7
 InitRand=100
-NbRun=20
-start_test=1
-nb_test=1
+NbRun=50
+start_test=5
+nb_test=10
 echo ""
-echo "Start approximation for file ${num_file} for n = ${n}"
+echo "Start heuristic approximation for file ${num_file} for n = ${n}"
 
 for j in `seq $start_test $nb_test`
 do

@@ -1,0 +1,7 @@
+INFO:DFA-finder:considering sample: 1000+0=1000 (pos+neg) finite traces, 7.51 timesteps (avg)
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary15/DFAs/dfa15_n_8_test_6.dot, DFA found in: 109.627s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary15/DFAs/dfa15_n_8_test_6.dot, DFA found in: 122.035s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary15/DFAs/dfa15_n_8_test_6.dot, DFA found in: 129.566s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary15/DFAs/dfa15_n_8_test_6.dot, DFA found in: 136.083s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary15/DFAs/dfa15_n_8_test_6.dot, DFA found in: 245.877s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary15/DFAs/dfa15_n_8_test_6.dot, DFA found in: 265.339s

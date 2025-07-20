@@ -26,11 +26,11 @@
 #nb_test=10
 #for num_file in 12
 
-min_n=1
-max_n=4
-start_test=1
+min_n=8
+max_n=8
+start_test=6
 nb_test=10
-for num_file in 15
+for num_file in 10
 do
 echo ""
 echo "Start File ${num_file}"
