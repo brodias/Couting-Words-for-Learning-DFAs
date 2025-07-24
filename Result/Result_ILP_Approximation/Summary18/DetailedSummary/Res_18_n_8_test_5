@@ -1,0 +1,10 @@
+INFO:DFA-finder:considering sample: 1000+0=1000 (pos+neg) finite traces, 7.51 timesteps (avg)
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary18/DFAs/dfa18_n_8_test_5.dot, DFA found in: 0.113s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary18/DFAs/dfa18_n_8_test_5.dot, DFA found in: 0.228s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary18/DFAs/dfa18_n_8_test_5.dot, DFA found in: 0.55s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary18/DFAs/dfa18_n_8_test_5.dot, DFA found in: 0.811s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary18/DFAs/dfa18_n_8_test_5.dot, DFA found in: 6.188s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary18/DFAs/dfa18_n_8_test_5.dot, DFA found in: 6.837s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary18/DFAs/dfa18_n_8_test_5.dot, DFA found in: 15.322s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary18/DFAs/dfa18_n_8_test_5.dot, DFA found in: 33.73s
+INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary18/DFAs/dfa18_n_8_test_5.dot, DFA found in: 230.499s

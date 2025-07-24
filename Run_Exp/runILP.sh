@@ -1,36 +1,8 @@
-#start_file=3
-#end_file=3
-#`seq $start_file $end_file`
-
-#min_n=5
-#max_n=5
-#for num_file in 01 04 07 10 11 13
-#start_test=1
-#nb_test=10
-
-#min_n=4
-#max_n=4
-#start_test=2
-#nb_test=10
-#for num_file in 06
-
-#min_n=5
-#max_n=5
-#start_test=2
-#nb_test=10
-#for num_file in 09
-
-#min_n=4
-#max_n=4
-#start_test=3
-#nb_test=10
-#for num_file in 12
-
-min_n=8
-max_n=8
-start_test=6
+min_n=7
+max_n=7
+start_test=1
 nb_test=10
-for num_file in 10
+for num_file in 16 19
 do
 echo ""
 echo "Start File ${num_file}"

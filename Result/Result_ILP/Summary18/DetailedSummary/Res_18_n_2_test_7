@@ -1,0 +1,56 @@
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2666615
+Academic license 2666615 - for non-commercial use only - registered to be___@tu-dortmund.de
+Set parameter TimeLimit to value 1000
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (linux64 - "Ubuntu 24.04.2 LTS")
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1365U, instruction set [SSE2|AVX|AVX2]
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+TimeLimit  1000
+
+Academic license 2666615 - for non-commercial use only - registered to be___@tu-dortmund.de
+Optimize a model with 12500 rows, 4348 columns and 33605 nonzeros
+Model fingerprint: 0x27ca3da0
+Variable types: 0 continuous, 4348 integer (4312 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+01]
+Presolve removed 5068 rows and 2831 columns
+Presolve time: 0.11s
+Presolved: 7432 rows, 1517 columns, 21189 nonzeros
+Variable types: 0 continuous, 1517 integer (1487 binary)
+Found heuristic solution: objective 13.0000000
+
+Root relaxation: objective 4.000000e-01, 2135 iterations, 0.05 seconds (0.13 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.40000    0 1445   13.00000    0.40000  96.9%     -    0s
+H    0     0                      10.0000000    0.40000  96.0%     -    0s
+H    0     0                       8.0000000    0.40000  95.0%     -    0s
+
+Cutting planes:
+  Cover: 11
+  Implied bound: 8
+  Clique: 110
+  MIR: 26
+  Zero half: 46
+  RLT: 232
+  Relax-and-lift: 56
+  BQP: 23
+
+Explored 1 nodes (2626 simplex iterations) in 0.39 seconds (0.71 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 8 10 13 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.000000000000e+00, best bound 8.000000000000e+00, gap 0.0000%
+Obj: 8
+5.504s elapsed

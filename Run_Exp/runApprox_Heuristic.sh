@@ -1,6 +1,10 @@
+#num_file = 17 18
+#start_test=1
+#nb_test=10
+
 num_file=15
 n=8
-h=7
+h=14
 InitRand=100
 NbRun=50
 start_test=5

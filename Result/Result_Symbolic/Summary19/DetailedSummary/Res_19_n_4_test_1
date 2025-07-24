@@ -1,0 +1,9 @@
+INFO:DFA-finder:considering sample: 1000+0=1000 (pos+neg) finite traces, 3.44 timesteps (avg)
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary19/DFAs/dfa19_n_4_test_1.dot, DFA found in: 0.073s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary19/DFAs/dfa19_n_4_test_1.dot, DFA found in: 0.147s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary19/DFAs/dfa19_n_4_test_1.dot, DFA found in: 0.257s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary19/DFAs/dfa19_n_4_test_1.dot, DFA found in: 0.301s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary19/DFAs/dfa19_n_4_test_1.dot, DFA found in: 0.35s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary19/DFAs/dfa19_n_4_test_1.dot, DFA found in: 0.856s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary19/DFAs/dfa19_n_4_test_1.dot, DFA found in: 1.044s
+INFO:DFA-finder:1.237s elapsed (1.119s on solving, 0.000s on generating finite counterexamples)

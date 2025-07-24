@@ -1,8 +1,8 @@
-start_file=12
-end_file=12
-min_n=8
-max_n=8
-start_test=9
+start_file=16
+end_file=20
+min_n=1
+max_n=6
+start_test=1
 nb_test=10
 
 for num_file in `seq $start_file $end_file`
@@ -21,7 +21,7 @@ do
 		TimeSummary=Result/Result_Symbolic/Summary${num_file}/TimeSummary/Time_${num_file}_n_${i}
 	
 		timeout 1000 ./Symbolic/infer --log=INFO -o "stats.json" specific DFA -f "${Trace}" --dfa="${DFA}" -n=$i --method=SYMB 2> $Res || echo "Timeout: 1000s" >> $TimeSummary
-		grep -Eo '[0-9\.]+s elapsed' Res >> $TimeSummary
+		grep -Eo '[0-9\.]+s elapsed' $Res >> $TimeSummary
 		if grep -q -Eo 'DFA found in: [0-9\.]+s' $Res 
 		then 
 		grep -Eo 'DFA found in: [0-9\.]+s' $Res | tail -1 >> $TimeSummary

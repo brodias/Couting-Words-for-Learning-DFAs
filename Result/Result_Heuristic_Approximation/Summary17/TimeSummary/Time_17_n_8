@@ -1,0 +1,40 @@
+For approximation: 437.388s elapsed
+For solving from starting DFA: 124.100s elapsed
+DFA found in: 93.507s
+
+For approximation: 432.277s elapsed
+For solving from starting DFA: 161.137s elapsed
+DFA found in: 35.481s
+
+For approximation: 497.545s elapsed
+For solving from starting DFA: 312.459s elapsed
+DFA found in: 120.719s
+
+For approximation: 482.18s elapsed
+For solving from starting DFA: 193.188s elapsed
+The starting DFA worked!
+
+For approximation: 451.438s elapsed
+For solving from starting DFA: 220.973s elapsed
+The starting DFA worked!
+
+For approximation: 446.74s elapsed
+For solving from starting DFA: 174.464s elapsed
+DFA found in: 106.033s
+
+For approximation: 455.103s elapsed
+For solving from starting DFA: 174.980s elapsed
+DFA found in: 52.336s
+
+For approximation: 513.965s elapsed
+For solving from starting DFA: 128.063s elapsed
+The starting DFA worked!
+
+For approximation: 434.901s elapsed
+For solving from starting DFA: 163.456s elapsed
+The starting DFA worked!
+
+For approximation: 489.587s elapsed
+For solving from starting DFA: 199.788s elapsed
+The starting DFA worked!
+

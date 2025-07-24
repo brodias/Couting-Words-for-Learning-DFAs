@@ -1,0 +1,4 @@
+INFO:DFA-finder:considering sample: 1000+0=1000 (pos+neg) finite traces, 7.51 timesteps (avg)
+INFO:DFA-finder:found new dfa: Result/Result_Heuristic_Approximation/Summary18/DFAs/dfa18_n_8_test_9.dot, DFA found in: 78.159s
+INFO:DFA-finder:found new dfa: Result/Result_Heuristic_Approximation/Summary18/DFAs/dfa18_n_8_test_9.dot, DFA found in: 103.42s
+INFO:DFA-finder:314.892s elapsed (314.761s on solving, 0.000s on generating finite counterexamples)
