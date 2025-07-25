@@ -1,0 +1,12 @@
+INFO:DFA-finder:considering sample: 1000+0=1000 (pos+neg) finite traces, 7.51 timesteps (avg)
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary24/DFAs/dfa24_n_8_test_3.dot, DFA found in: 0.114s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary24/DFAs/dfa24_n_8_test_3.dot, DFA found in: 0.291s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary24/DFAs/dfa24_n_8_test_3.dot, DFA found in: 0.592s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary24/DFAs/dfa24_n_8_test_3.dot, DFA found in: 0.937s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary24/DFAs/dfa24_n_8_test_3.dot, DFA found in: 2.404s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary24/DFAs/dfa24_n_8_test_3.dot, DFA found in: 10.321s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary24/DFAs/dfa24_n_8_test_3.dot, DFA found in: 11.66s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary24/DFAs/dfa24_n_8_test_3.dot, DFA found in: 21.568s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary24/DFAs/dfa24_n_8_test_3.dot, DFA found in: 37.305s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary24/DFAs/dfa24_n_8_test_3.dot, DFA found in: 90.158s
+INFO:DFA-finder:304.071s elapsed (303.707s on solving, 0.000s on generating finite counterexamples)

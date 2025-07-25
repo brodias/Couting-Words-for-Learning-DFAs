@@ -1,0 +1,12 @@
+digraph g {
+__start0 [label="" shape="none]
+0 [shape="circle" label="0"]
+1 [shape="doublecircle" label="1"]
+__start0 -> 0
+0 -> 1[label="c"]
+0 -> 1[label="a"]
+0 -> 0[label="b"]
+1 -> 1[label="c"]
+1 -> 1[label="a"]
+1 -> 1[label="b"]
+}

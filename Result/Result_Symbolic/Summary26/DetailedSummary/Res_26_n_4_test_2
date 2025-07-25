@@ -1,0 +1,5 @@
+INFO:DFA-finder:considering sample: 996+0=996 (pos+neg) finite traces, 5.62 timesteps (avg)
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary26/DFAs/dfa26_n_4_test_2.dot, DFA found in: 0.092s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary26/DFAs/dfa26_n_4_test_2.dot, DFA found in: 0.274s
+INFO:DFA-finder:found new dfa: Result/Result_Symbolic/Summary26/DFAs/dfa26_n_4_test_2.dot, DFA found in: 2.386s
+INFO:DFA-finder:2.979s elapsed (2.852s on solving, 0.000s on generating finite counterexamples)

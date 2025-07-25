@@ -1,8 +1,8 @@
-min_n=7
-max_n=7
+min_n=8
+max_n=8
 start_test=1
 nb_test=10
-for num_file in 16 19
+for num_file in 16
 do
 echo ""
 echo "Start File ${num_file}"

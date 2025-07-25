@@ -1,7 +1,7 @@
-start_file=16
-end_file=20
+start_file=29
+end_file=29
 min_n=1
-max_n=6
+max_n=8
 start_test=1
 nb_test=10
 

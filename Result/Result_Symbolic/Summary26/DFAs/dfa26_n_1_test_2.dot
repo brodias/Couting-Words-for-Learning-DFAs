@@ -1,0 +1,8 @@
+digraph g {
+__start0 [label="" shape="none]
+0 [shape="doublecircle" label="0"]
+__start0 -> 0
+0 -> 0[label="c"]
+0 -> 0[label="a"]
+0 -> 0[label="b"]
+}
