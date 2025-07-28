@@ -1,0 +1,40 @@
+Timeout: 1000s
+For approximation: 342.388s elapsed
+DFA found in: 169.273s
+
+Timeout: 1000s
+For approximation: 325.62s elapsed
+DFA found in: 129.191s
+
+For approximation: 322.691s elapsed
+For solving from starting DFA: 329.067s elapsed
+DFA found in: 120.683s
+
+Timeout: 1000s
+For approximation: 326.376s elapsed
+DFA found in: 222.198s
+
+Timeout: 1000s
+For approximation: 323.342s elapsed
+DFA found in: 221.142s
+
+For approximation: 322.615s elapsed
+For solving from starting DFA: 335.291s elapsed
+DFA found in: 117.552s
+
+Timeout: 1000s
+For approximation: 325.431s elapsed
+DFA found in: 146.877s
+
+Timeout: 1000s
+For approximation: 327.448s elapsed
+DFA found in: 211.868s
+
+Timeout: 1000s
+For approximation: 325.105s elapsed
+DFA found in: 129.525s
+
+Timeout: 1000s
+For approximation: 324.132s elapsed
+DFA found in: 197.58s
+

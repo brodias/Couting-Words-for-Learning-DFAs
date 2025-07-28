@@ -1,13 +1,9 @@
-#num_file = 17 18
-#start_test=1
-#nb_test=10
-
-num_file=15
+num_file=29
 n=8
 h=14
 InitRand=100
 NbRun=50
-start_test=5
+start_test=6
 nb_test=10
 echo ""
 echo "Start heuristic approximation for file ${num_file} for n = ${n}"

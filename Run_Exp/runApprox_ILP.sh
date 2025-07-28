@@ -1,8 +1,8 @@
-num_file=17
+num_file=21
 n=8
 h=7
 time=250
-start_test=2
+start_test=10
 nb_test=10
 echo ""
 echo "Start ILP approximation for file ${num_file} for n = ${n}"

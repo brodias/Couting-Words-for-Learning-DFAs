@@ -17,6 +17,9 @@ do
 		then
 			approx_done=true
 			echo -n "L_SYMB_${num_file}_n_${i} = [" >> $File
+			countStart=$( grep -c -Eo 'The starting DFA worked!' $TimeSummary)
+			countNotStart=$( grep -c -Eo 'DFA found in:' $TimeSummary)
+			tout=$( grep -c -Eo 'Timeout' $TimeSummary)
 			count=$( grep -c -Eo 'Timeout: 1000| DFA: [0-9\.]+' $TimeSummary)
 			for j in `seq 1 $count`
 			do
@@ -31,10 +34,13 @@ do
 				fi
 			done
 			echo "]" >> $File
+			echo "start = $countStart" >> $File
+			echo "not_start = $countNotStart" >> $File
+			echo "timeout = $tout" >> $File
 			echo "l = len(L_SYMB_${num_file}_n_${i})" >> $File
 			echo "mean = round(np.mean(L_SYMB_${num_file}_n_${i}),3)" >> $File
 			echo "var = round(np.std(L_SYMB_${num_file}_n_${i}),3)" >> $File
-			echo "print(str($i),':','mean:',mean,', var:',var,', nb_exp:',l)"  >> $File
+			echo "print(str($i),':','mean:',mean,', var:',var,', nb_exp:',l,', timeout:',timeout,', start_ok:',start,', start_not_ok:',not_start)"  >> $File
 			#echo "Done with n = ${i}"
 		fi
 	done
