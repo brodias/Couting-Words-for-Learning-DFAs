@@ -1,4 +1,0 @@
-INFO:DFA-finder:considering sample: 1000+0=1000 (pos+neg) finite traces, 7.5 timesteps (avg)
-INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary21/DFAs/dfa21_n_8_test_7.dot, DFA found in: 418.065s
-INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary21/DFAs/dfa21_n_8_test_7.dot, DFA found in: 458.046s
-INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary21/DFAs/dfa21_n_8_test_7.dot, DFA found in: 496.16s

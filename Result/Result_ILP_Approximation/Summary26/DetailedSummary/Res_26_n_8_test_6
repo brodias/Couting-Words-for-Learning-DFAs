@@ -1,3 +1,0 @@
-INFO:DFA-finder:considering sample: 996+0=996 (pos+neg) finite traces, 5.62 timesteps (avg)
-INFO:DFA-finder:found new dfa: Result/Result_ILP_Approximation/Summary26/DFAs/dfa26_n_8_test_6.dot, DFA found in: 105.699s
-INFO:DFA-finder:536.316s elapsed (536.232s on solving, 0.000s on generating finite counterexamples)

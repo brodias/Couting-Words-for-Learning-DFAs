@@ -1,4 +1,0 @@
-INFO:DFA-finder:considering sample: 996+0=996 (pos+neg) finite traces, 5.62 timesteps (avg)
-INFO:DFA-finder:found new dfa: Result/Result_Heuristic_Approximation/Summary26/DFAs/dfa26_n_8_test_6.dot, DFA found in: 153.422s
-INFO:DFA-finder:found new dfa: Result/Result_Heuristic_Approximation/Summary26/DFAs/dfa26_n_8_test_6.dot, DFA found in: 177.739s
-INFO:DFA-finder:452.964s elapsed (452.691s on solving, 0.000s on generating finite counterexamples)

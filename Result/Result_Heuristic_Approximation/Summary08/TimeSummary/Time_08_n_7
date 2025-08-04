@@ -1,39 +1,30 @@
-Timeout: 1000s
 For approximation: 161.323s elapsed
+For solving from starting DFA: Timeout: 1000s
 
 For approximation: 163.296s elapsed
 For solving from starting DFA: 18.247s elapsed
-The starting DFA worked!
 
 For approximation: 152.938s elapsed
 For solving from starting DFA: 15.911s elapsed
-The starting DFA worked!
 
 For approximation: 164.164s elapsed
 For solving from starting DFA: 25.893s elapsed
-The starting DFA worked!
 
-Timeout: 1000s
 For approximation: 187.927s elapsed
-DFA found in: 0.641s
+For solving from starting DFA: Timeout: 1000s
 
 For approximation: 324.677s elapsed
 For solving from starting DFA: 31.081s elapsed
-DFA found in: 20.647s
 
 For approximation: 385.401s elapsed
 For solving from starting DFA: 72.573s elapsed
-The starting DFA worked!
 
-Timeout: 1000s
 For approximation: 317.613s elapsed
-DFA found in: 1.099s
+For solving from starting DFA: Timeout: 1000s
 
 For approximation: 206.749s elapsed
 For solving from starting DFA: 23.098s elapsed
-The starting DFA worked!
 
 For approximation: 192.213s elapsed
 For solving from starting DFA: 102.531s elapsed
-DFA found in: 76.375s
 
