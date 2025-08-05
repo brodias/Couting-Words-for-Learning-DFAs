@@ -1,0 +1,12 @@
+The Pearson correlation coefficient for File 02: 0.98
+The Pearson correlation coefficient for File 05: 0.942
+The Pearson correlation coefficient for File 06: 0.779
+The Pearson correlation coefficient for File 08: 0.738
+The Pearson correlation coefficient for File 15: -0.416
+The Pearson correlation coefficient for File 17: 0.658
+The Pearson correlation coefficient for File 21: 0.405
+The Pearson correlation coefficient for File 24: -0.121
+The Pearson correlation coefficient for File 27: -0.328
+The Pearson correlation coefficient for File 28: 0.057
+The total Pearson correlation coefficient: 0.604
+The total Pearson correlation coefficient on normalized data: 0.775
